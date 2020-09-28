@@ -9,7 +9,7 @@
     color: $title-color;
     cursor: pointer;
     @include font(14px, 1.12, 500);
-    letter-spacing: 0.02em;
+    letter-spacing: $secondary-letter_spacing;
   }
 
   &__link--active {

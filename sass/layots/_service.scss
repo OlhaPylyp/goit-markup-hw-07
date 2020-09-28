@@ -22,11 +22,11 @@
 .servise__title {
   margin-top: 0;
   margin-bottom: 4px;
-  @include font(18px, 2);
+  @include font(18px, $title-sec-line-height);
   color: $title-color;
 }
 .servise__text {
-  @include font(16px, 1.9, 500);
+  @include font(16px, $text-sec-line-height, 500);
 }
 
 /* Ховер и фокус для списка по сервису */

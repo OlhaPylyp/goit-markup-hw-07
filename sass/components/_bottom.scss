@@ -5,7 +5,7 @@
   align-items: center;
   text-align: center;
   @include font(16px, 1.87, 400);
-  letter-spacing: 0.06em;
+  letter-spacing: $btn-letter_spacing;
   border: none;
   outline: none;
   color: $white;
