@@ -1,7 +1,7 @@
 body {
   color: $title-color;
   background-color: $white;
-  @include font(14px, $main-line-height);
+  @include font($main-font-size, $main-line-height);
   font-family: Roboto, sans-serif;
   font-style: normal;
   letter-spacing: $main-letter_spacing;

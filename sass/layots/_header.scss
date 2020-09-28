@@ -20,7 +20,7 @@
   &__link {
     display: inline-flex;
     align-items: center;
-    @include font(14px, $link-line-height, 500);
+    @include font($main-font-size, $link-line-height, $sec-font-weight);
     letter-spacing: $secondary-letter_spacing;
     color: $text-color;
   }

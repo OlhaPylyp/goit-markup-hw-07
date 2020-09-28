@@ -4,7 +4,7 @@
   min-width: 200px;
   align-items: center;
   text-align: center;
-  @include font(16px, 1.87, 400);
+  @include font($btn-font-size, $btn-sec-line-height, $text-font-weigt);
   letter-spacing: $btn-letter_spacing;
   border: none;
   outline: none;
